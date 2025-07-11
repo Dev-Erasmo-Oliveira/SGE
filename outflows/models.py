@@ -10,6 +10,7 @@ class Outflows(models.Model):
 
     class Meta:
         ordering = ['-created_at']
+        verbose_name_plural = "Outflows"
 
     def __str__(self):
         return str(self.product)
